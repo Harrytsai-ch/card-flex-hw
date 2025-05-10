@@ -1,0 +1,41 @@
+.card-text {
+	height: 3rem;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.card-tag {
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: #0027d5;
+}
+
+.card time {
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.card-title {
+	font-weight: 700;
+	font-size: 1.75rem;
+}
+
+.card img {
+	height: 200px;
+	object-fit: cover;
+}
+
+.btn-read-more {
+	padding: 0.5rem 1rem;
+	border-radius: 2.5rem;
+	border: 1px solid #000;
+}
+
+.btn-read-more:hover {
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #000;
+}
